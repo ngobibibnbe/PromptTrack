@@ -16,7 +16,6 @@ To install PromptTracker, use the following command:
 
 ```python
 pip install PromptTrack
-#pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ PromptTrack (version test)
 pip install --no-deps bytetracker
 ```
 
@@ -41,7 +40,7 @@ tracker = PromptTracker()
 Detect objects in a video using a text prompt:
 
 ### Parameters:
-- **video_file (str)**: Path to the input video file.
+- **video_file (str)**: Path to the MP4 input video file.
 - **prompt (str)**: Comma-separated names of entities to track (e.g., "pig,bird").
 - **nms_threshold (float)**: Non-Maximum Suppression threshold for filtering overlapping detections.
 - **detection_threshold (float)**: Confidence threshold for reporting detections.
